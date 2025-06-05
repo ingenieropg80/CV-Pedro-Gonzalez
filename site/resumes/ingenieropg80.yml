@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    first_name: Pedro
+    last_name: Matias
+    
+    # Define yourself in 4-5 words
+    motto: creativo, persistente, responsable y Enfocado en resultados.
+    
+    # focus
+    focus: Mejora continua de procesos. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+      Soy ingeniero en mantenimiento Industrial, analista de datos, tengo un diplomado en gerencia de proyectos y un curso avanzado en automatización & robótica.
+
+    # Your profile picture URL
+    
+    avatar: https://github.com/pedrogonzalez
+
+    email: Ingenieropg80@gmail.coml
+    phone: +34 633 66 55 75 
+    linkedin: www.linkedin.com/in/ingpedrogonzalez
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idioma: Español
+        Nivel: Native
+
+      - idioma: Ingles
+        Nivel: Medium
+
+   
+    Interests:
+      - item: Codificar
+
+      - item: Ciclismo
+
+      - item: Aprender sobre tecnologia
+
+# Your previous education
+education:
+    - degree: Data Analist
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      time: 2025 - 2025
+      details: |
+        Formación en análisis de datos, machine learning y herramientas de visualización.
+
+        Desarrollo de proyectos prácticos aplicando Python, SQL y bibliotecas de ciencia de datos como Pandas y Scikit-learn.
+
+        Uso de tecnologías como Power BI y Jupyter Notebook para el procesamiento y análisis de grandes volúmenes de datos.
+
+        Implementación de modelos de aprendizaje automático y técnicas de inteligencia artificial.
+
+        Trabajo en equipo en proyectos reales con enfoque en resolución de problemas de negocio a través de datos.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Teacher Assistant
+      time: 2022 - Present
+      company: 4Geeks Academy
+      # optional
+      company_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/60a8e/4geeks-logo.webp
+      details: |
+        - Correction of students' projects.
+        - Helping students to adapt and learn.
+        - Support students in the learning process.
+
+    - role: Salesfloor Assistant
+      time: 2018 - 2021
+      company: Farmatodo C.A.
+      # optional
+      company_logo: https://media-exp1.licdn.com/dms/image/C4D0BAQGoZcwpN-dZ4Q/company-logo_100_100/0/1622063377523?e=1669852800&v=beta&t=LDAkwYIZo4zFHfuT04Htw1zrwvURcVOHPKVOS_S4XrU
+      details: |
+        - Keeping the store fully stocked.
+        - Keeping me up to date with product information.
+        - Customer service.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Python
+        level: 1%
+
+      - name: Javascript
+        level: 0%
+
+      - name: React
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 0%
+
+      - name: BootStrap
+        level: 0%
+
+      - name: Flask
+        level: 0%
